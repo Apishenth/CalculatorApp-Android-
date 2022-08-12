@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="50dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <EditText
+            android:id="@+id/UserVal01"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Number"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/UserVal02"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Number"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="+"
+            android:textSize="75dp" />
+
+        <Button
+            android:id="@+id/buttonSubract"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="-"
+            android:textSize="75dp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="*"
+            android:textSize="75dp" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="/"
+            android:textSize="75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/Results"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
